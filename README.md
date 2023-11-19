@@ -12,7 +12,7 @@ For example the SIR dynamics with varying particles sizes could look like this:
 
 https://github.com/borya-polovnikov/SIR_particle_dynamics/assets/147932035/24605222-f91e-45a9-a6f4-0463a9128757
 
-The reaction dynamics of individual particles can also be changed inside the particle class, e.g. to implement the [diffusive epidemic process](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.078302):
+
+The reaction dynamics of individual particles can also be changed inside the particle class, e.g. to implement the [Diffusive Epidemic Process](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.078302):
 
 https://github.com/borya-polovnikov/SIR_particle_dynamics/assets/147932035/e9d61abf-d92d-4145-a966-75bfaff8d2d1
-
