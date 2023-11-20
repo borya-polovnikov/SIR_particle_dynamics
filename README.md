@@ -5,7 +5,7 @@ This is a simple simulation of scattering particles that can be used to e.g. sim
 The backbone of the simulation is the class 'particle' that mainly implements the movement of a given particle and its pair-wise interaction with another particle via elastic collision.
 The class 'box_ensemble' provides a wrapper to simulate all particles simultaneously and defines a grid map to reduce the time complexity of computing collision events. 
 This is done by tracking a 2D array with labels of different particles at different positions, s.t. upon searching through the candidates for collision events, a particle only has to look in its immediate neighborhood 
-(this is often used in the notorious [boids algorithm](https://en.wikipedia.org/wiki/Boids).
+(this is often used in the notorious [boids algorithm](https://en.wikipedia.org/wiki/Boids)).
 
 The main parameters of the infection dynamics can be changed in the particle class, whereas the box_ensemble class takes the number of particles and their sizes as input.
 For example the SIR dynamics with varying particles sizes could look like this:
