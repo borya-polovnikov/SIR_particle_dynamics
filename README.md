@@ -10,7 +10,10 @@ This is done by tracking a 2D array with labels of different particles at differ
 The main parameters of the infection dynamics can be changed in the particle class, whereas the box_ensemble class takes the number of particles and their sizes as input.
 For example the SIR dynamics with varying particles sizes could look like this:
 
-https://github.com/borya-polovnikov/SIR_particle_dynamics/assets/147932035/24605222-f91e-45a9-a6f4-0463a9128757
+
+https://github.com/borya-polovnikov/SIR_particle_dynamics/assets/147932035/6e61cbfe-5f69-4947-aed0-d75bbc876e25
+
+
 
 
 The reaction dynamics of individual particles can also be changed inside the particle class, e.g. to implement the [Diffusive Epidemic Process](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.078302):
